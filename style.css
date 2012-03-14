@@ -1,13 +1,28 @@
-#index h1 {
-    font-size: 20pt;
-    color: red;
-    font-family: Helvetica, Arial sans-serif;
-    font-weight: 100;
-    position: absolute;
-    top: 60%;
-    left: 1.5em;
+
+div {
+	position: absolute;
+   top: 60%;
+   left: 1.5em;
 }
 
-#index h1 span {
+h1 {
+   font-size: 20pt;
+   color: red;
+   font-family: Helvetica, Arial sans-serif;
+   font-weight: 100;
+	margin-bottom: 0px;
+}
+
+h1 span {
     color: black;
+}
+
+a {
+	color: #999;
+	text-decoration: none;
+	font-size: 10pt;
+}
+
+a:hover {
+	color: black;
 }
